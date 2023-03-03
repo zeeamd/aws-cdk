@@ -66,10 +66,17 @@ Enjoy!
 
 ##
 cdk init sample-app --language python
+#
 source .venv/bin/activate
+#
 pip install -r requirements.txt
+#
 cdk synth
+#
 cdk bootstrap - creates a bootstrap CFN stack with a S3 bucket/IAM roles for cdk to work with deployments
+#
 cdk deploy
+#
 cdk diff
+#
 ##
