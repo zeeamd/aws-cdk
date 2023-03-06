@@ -63,3 +63,9 @@ command.
  * `cdk docs`        open CDK documentation
 
 Enjoy!
+
+#
+cdk init sample-app --language=python
+#
+edit the stack code in the virtual env
+#
